@@ -1295,7 +1295,7 @@ def upscale_with_realesrgan(image, RealESRGAN_upscaling, RealESRGAN_model_index)
         scale=info.netscale,
         model_path=info.location,
         model=model,
-        half=True
+        half=False
     )
 
     upsampled = upsampler.enhance(np.array(image), outscale=RealESRGAN_upscaling)[0]
