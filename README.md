@@ -61,6 +61,12 @@ https://huggingface.co/CompVis/stable-diffusion-v-1-4-original
 
 copy the file to your stable-diffusion-cpuonly-main directory
 
+### Download the GFPGAN model
+
+https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth
+
+copy the file to your stable-diffusion-cpuponly-main directory
+
 ### Windows - Running the install script
 
 open a terminal or powershell and cd to your stable-diffusion-cpuonly-main directory and run
