@@ -15,7 +15,7 @@ Install Anaconda
 https://www.anaconda.com/
 Yes even on a linux system anaconda needs to be installed. 
 
-#### Windows 
+### Windows 
 
 ##### Install Visual Studio Community Edition to build 1 file. 
 Click on the free download and make sure to check "Desktop Development with C++" when installing as per this image
@@ -41,7 +41,7 @@ download the .exe and I copied it to my C:/Windows/System directory (this isn't 
 
 reboot your system just to make sure everything is properly loaded up.
 
-#### Linux Mint 22.04
+### Linux Mint 22.04
 
 Install git and wget with the following command
 ```
