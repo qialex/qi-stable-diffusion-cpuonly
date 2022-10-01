@@ -2,7 +2,7 @@
 
 This fork of Stable-Diffusion doesn't require a high end graphics card and runs exclusively on your cpu. It's been tested on Linux Mint 22.04 and Windows 10.
 
-This isn't the fastest experience you'll have with stable diffusion but it does allow you to use stable-diffusion and most of the current set of features floating around on the internet such as txt2img, img2img, image upscaling with Real-ESRGAN and better faces with GFPGAN.
+This isn't the fastest experience you'll have with stable diffusion but it does allow you to use it and most of the current set of features floating around on the internet such as txt2img, img2img, image upscaling with Real-ESRGAN and better faces with GFPGAN.
 
 
 ##
