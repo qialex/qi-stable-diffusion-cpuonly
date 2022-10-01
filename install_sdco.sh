@@ -6,6 +6,8 @@ mkdir -p models/ldm/stable-diffusion-v1/
 mkdir -p outputs/extras-samples
 mkdir -p outputs/img2img-samples/samples
 mkdir -p outputs/txt2img-samples/samples
+cp sd-v1-4.ckpt models/ldm/stable-diffusion-v1/model.ckpt
+rm sd-v1-4.ckpt
 
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 conda env create -f environment-cpuonly.yaml
