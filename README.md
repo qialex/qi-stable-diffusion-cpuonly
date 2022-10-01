@@ -56,15 +56,27 @@ https://huggingface.co/CompVis/stable-diffusion-v-1-4-original
 
 copy the file to your stable-diffusion-cpuonly-main directory
 
-### Running the install script
+### Windows - Running the install script
 
 open a terminal or powershell and cd to your stable-diffusion-cpuonly-main directory and run
+```
+.\install_sdco.bat
+```
 
+### Linux - Running the install script
+open a terminal or powershell and cd to your stable-diffusion-cpuonly-main directory and run
 ```
 bash -i install_sdco.sh
 ```
 
-## Starting Stable-Diffusion-cpuonly
+## Windows - Starting Stable-Diffusion-cpuonly
+
+Run the following command
+
+```
+.\run_sdco.bat
+```
+## Linux - Starting Stable-Diffusion-cpuonly
 
 Run the following command
 
