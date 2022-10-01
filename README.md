@@ -36,7 +36,7 @@ Windows users need this verison
 https://eternallybored.org/misc/wget/
 download the .exe and I copied it to my C:/Windows/System directory (this isn't the correct way just the fastest to get it working)
 
-##### Install WSLd
+##### Install WSL
 open a powershell terminal as administrator from your start menu and right mouse click over to the run as administrator and run the following
 ```
 wsl -install 
