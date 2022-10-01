@@ -45,7 +45,7 @@ reboot your system just to make sure everything is properly loaded up.
 
 Install git and wget with the following command
 ```
-sudo apt-get -y install git wget
+sudo apt-get -y install git wget build-essential
 ```
 ## Installation of Stable-Diffusion-cpuonly
 
