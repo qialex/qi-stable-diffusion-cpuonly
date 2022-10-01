@@ -1,4 +1,4 @@
 #!/bin/bash
 
-conda env remove sdco
+conda env remove -n sdco
 

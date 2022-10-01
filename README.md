@@ -47,7 +47,9 @@ download the .exe and I copied it to my C:/Windows/System directory (this isn't 
 
 sudo apt-get -y install git wget
 
+## Installation of Stable-Diffusion-Cpuonly
 
+Copy this github repository and extract to you home/$user directory, the install and run bash scripts are set to run from that location with the *-main at the end like you've just downloaded the zipped up file.
 
 
 
