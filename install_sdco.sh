@@ -6,7 +6,7 @@ mkdir -p models/ldm/stable-diffusion-v1
 mkdir -p outputs/extras-samples
 mkdir -p outputs/img2img-samples/samples
 mkdir -p outputs/txt2img-samples/samples
-mkdir src/gfpgan/experiments/pretrained_models
+mkdir -p src/gfpgan/experiments/pretrained_models
 cp sd-v1-4.ckpt models/ldm/stable-diffusion-v1/model.ckpt
 rm sd-v1-4.ckpt
 cp GFPGANv1.3.pth src/gfpgan/experiments/pretrained_models/GFPGANv1.3.pth
