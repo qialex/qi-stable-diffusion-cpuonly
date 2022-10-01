@@ -4,11 +4,6 @@ mkdir "models/ldm/stable-diffusion-v1/"
 mkdir "outputs/extras-samples"
 mkdir "outputs/img2img-samples/samples"
 mkdir "outputs/txt2img-samples/samples"
-mkdir "src/gfpgan/experiments/pretrained_models/"
-copy sd-v1-4.ckpt "models/ldm/stable-diffusion-v1/model.ckpt"
-del sd-v1-4.ckpt
-copy GFPGANv1.3.pth "src/gfpgan/experiments/pretrained_models/GFPGANv1.3.pth"
-del GFPGANv1.3.pth
 
 call conda install pytorch torchvision torchaudio cpuonly -c pytorch
 call conda env create -f environment-cpuonly.yaml
@@ -20,4 +15,9 @@ call pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 call pip install -e git+https://github.com/TencentARC/GFPGAN#egg=GFPGAN
 call pip install -e git+https://github.com/xinntao/Real-ESRGAN#egg=realesrgan
 call pip install -e git+https://github.com/hlky/k-diffusion-sd#egg=k_diffusion
+copy sd-v1-4.ckpt "models/ldm/stable-diffusion-v1/model.ckpt"
+del sd-v1-4.ckpt
+copy GFPGANv1.3.pth "src/gfpgan/experiments/pretrained_models/GFPGANv1.3.pth"
+del GFPGANv1.3.pth
+
 
