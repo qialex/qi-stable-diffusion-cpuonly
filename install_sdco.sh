@@ -8,9 +8,9 @@ mkdir -p outputs/img2img-samples/samples
 mkdir -p outputs/txt2img-samples/samples
 
 
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
-conda env create -f environment-cpuonly.yaml
-conda activate sdco
+bash conda install pytorch torchvision torchaudio cpuonly -c pytorch
+bash conda env create -f environment-cpuonly.yaml
+bash conda activate sdco
 
 pip install pynvml gradio keras-unet fairseq basicsr facexlib
 pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
