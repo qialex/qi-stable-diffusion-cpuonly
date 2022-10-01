@@ -18,7 +18,7 @@ Yes even on a linux system anaconda needs to be installed.
 #### Windows 
 
 ##### Install Visual Studio Community Edition to build 1 file. 
-Click on the free download and make sure to check "Desktop Development with C++"
+Click on the free download and make sure to check "Desktop Development with C++" when installing.
 
 https://visualstudio.microsoft.com/downloads/?q=build+tools
 
