@@ -1,10 +1,10 @@
 echo This Script is now installing a Stable Diffusion cpu only variant. 
 
-mkdir "models/ldm/stable-diffusion-v1"
+mkdir "models/ldm/stable-diffusion-v1/"
 mkdir "outputs/extras-samples"
 mkdir "outputs/img2img-samples/samples"
 mkdir "outputs/txt2img-samples/samples"
-mkdir "src/gfpgan/experiments/pretrained_models"
+mkdir "src/gfpgan/experiments/pretrained_models/"
 copy sd-v1-4.ckpt "models/ldm/stable-diffusion-v1/model.ckpt"
 del sd-v1-4.ckpt
 copy GFPGANv1.3.pth "src/gfpgan/experiments/pretrained_models/GFPGANv1.3.pth"
