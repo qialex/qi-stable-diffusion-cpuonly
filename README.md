@@ -67,7 +67,6 @@ open a terminal or powershell and cd to your stable-diffusion-cpuonly-main direc
 
 ```
 bash -i install_sdco.sh
-
 ```
 
 ## Starting Stable-Diffusion-cpuonly
