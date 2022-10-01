@@ -19,42 +19,35 @@ this model uses a frozen CLIP ViT-L/14 text encoder to condition the model on te
 With its 860M UNet and 123M text encoder, the model is relatively lightweight and runs on a GPU with at least 10GB VRAM.
 See [this section](#stable-diffusion-v1) below and the [model card](https://huggingface.co/CompVis/stable-diffusion).
 
+##
   
 ## Requirements
 
+### Windows and Linux
+
 Install Anaconda
-A suitable [conda](https://conda.io/) environment named `ldm` can be created
-and activated with:
+https://www.anaconda.com/
+Yes even on a linux system anaconda needs to be installed. 
+
+#### Windows 
 
 Install Git
 https://git-scm.com/downloads
-version control manager for code
+version control manager for code 
 we just use it to download repos from GitHub
 Must be on system PATH, When installing select the option add to system PATH
-
-Install FFmpeg
-https://ffmpeg.org/download.html
-Video encoding tool library
-we use this mainly to turn image sequences into videos
-Must be on system PATH
-https://www.wikihow.com/Install-FFmpeg-on-Windows
-
-Install ImageMagick
-https://imagemagick.org/script/download.php
-software suite for displaying, creating, converting, modifying, and editing raster images.
-used in some projects but handy to have already installed
 
 Install Wget
 used to download models for projects
 Windows users need this verison
 https://eternallybored.org/misc/wget/
-download the .exe and I copied it to my C:/Windows/System directory (this isn't the correct way just the fastest)
+download the .exe and I copied it to my C:/Windows/System directory (this isn't the correct way just the fastest to get it working)
 
-Install cURL
-used to download models, some projects use this instead of wget
-Latest versions of windows have cURL pre installed
-Older versions that dont include cURL use this one
-https://curl.se/windows/
+#### Ubuntu 22.04
+
+sudo apt-get -y install git wget
+
+
 
 
 
