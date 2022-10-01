@@ -17,11 +17,11 @@ Yes even on a linux system anaconda needs to be installed.
 
 #### Windows 
 
-##### Install Visual Studio runtime
+##### Install Visual Studio Community Edition to build 1 file. 
+Click on the free download and make sure to check "Desktop Development with C++"
 
-Go to this link and install the Visual Studio 2015, 2017, 2019, 2022 x64 file and install it.
+https://visualstudio.microsoft.com/downloads/?q=build+tools
 
-https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
 
 ##### Install Git
@@ -36,12 +36,8 @@ Windows users need this verison
 https://eternallybored.org/misc/wget/
 download the .exe and I copied it to my C:/Windows/System directory (this isn't the correct way just the fastest to get it working)
 
-##### Install WSL
-open a powershell terminal as administrator from your start menu and right mouse click over to the run as administrator and run the following
-```
-wsl -install 
-```
-reboot your system and let wsl finish the install process
+
+reboot your system just to make sure everything is properly loaded up.
 
 #### Linux Mint 22.04
 
