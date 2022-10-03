@@ -4,6 +4,8 @@ This fork of Stable-Diffusion doesn't require a high end graphics card and runs 
 
 This isn't the fastest experience you'll have with stable diffusion but it does allow you to use it and most of the current set of features floating around on the internet such as txt2img, img2img, image upscaling with Real-ESRGAN and better faces with GFPGAN.
 
+A install guide video is located here. https://www.youtube.com/watch?v=mTrA4uDiKzU&t=644s
+
 
 ##
   
